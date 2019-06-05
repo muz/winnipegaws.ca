@@ -53,18 +53,20 @@ theme = "hugo-creative-theme"
 		# headline = "Current Project"
 
       [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Current Project"
-            description = "Ataniq is currently developing a new system designed to reduce worldwide C0₂ levels over the next five years, and provide mechanisms for long-term, sustainable, reductions in CO₂ emissions in the years after that."
+            icon = "fa-users"
+            title = "Meetups"
+            description = """
+The monthly meetups we host are evening events in central Winnipeg — subscribe to our [mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) to be notified of the next event.
+            """
 
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Looking for Help"
-            description = "There are openings for individuals skilled in databases, mathematical programming, and modern programming techniques to work with our experienced leadership and technical experts."
+      [[params.services.list]]
+          icon = "fa-heart"
+          title = "Looking for Help?"
+          description = "Want to chat? Join the [DC204 Slack Chat](https://thelongcon.ca/contact/) and visit the #orange-koolaid channel to connect with other Winnipeg AWS professionals. Our monthly meetups are another great way to ask questions and get answers: subscribe to [our mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) to be notified of future events."
 
 	# About section
 	[params.about]
-		headline    = "History"
+		headline    = "About"
 		description = "Founded in December 2018 in the wake of [The Long Con 2018](https://thelongcon.ca/2018/speakers/) in the DC204 slack chat, Winnipeg AWS has been hosting regular talks on a variety of AWS services and skill levels from beginner to seasoned expert."
 		# buttonText  = "Get started!"
 
@@ -103,10 +105,8 @@ theme = "hugo-creative-theme"
 	# Contact section
 	[params.contact]
 		headline = "Contact us"
-		description = "We are looking for skilled people to work with our experienced, expert team to build the systems that power tomorrow."
-		address = "3rd Floor, 125 Adelaide St"
-    address_line2 = "Winnipeg, Manitoba, R3A 0A3, Canada"
-		email = "admin@ataniq.com"
+		description = "You can reach us through the email below or feel free to join the [DC204 Slack Chat](https://thelongcon.ca/contact/) channel to get in contact with us. Our [mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) is also a great resource to email in and ask questions."
+		email = "winnipegaws@gmail.com"
 
 	# Google Maps section
 	# [params.location]
