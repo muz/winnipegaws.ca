@@ -8,6 +8,14 @@ Installation:
 brew install hugo
 git submodule update --init --recursive
 git worktree add -B gh-pages public upstream/gh-pages
+
+# Check it out locally
 hugo server
+
+# Generate files into public/ directory
 hugo
+
+# commit files in public/ directory and publish on winnipegaws.ca
+./commit-gh-pages-files.sh
+./push-gh-pages-files.sh
 ```
