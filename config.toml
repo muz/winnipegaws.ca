@@ -29,7 +29,7 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "![Logo](img/favicon.png)&nbsp;Winnipeg AWS UG"
+		brand = "![Logo](img/favicon.png)&nbsp;Winnipeg AWS User Group"
 
 		[params.navigation.links]
 			about     = "About"
@@ -41,16 +41,11 @@ theme = "hugo-creative-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "We believe in decisions rooted in data"
-		subtitle   = "A future that leverages the power of data and algorithms is one that is fundamentally more capable and fair. Our systems, founded in mathematical concepts, can solve many extraordinarily difficult problems effectively, efficiently, and optimally."
-		buttonText = "Find out more"
+		slogan     = "The AWS community of Winnipeg"
+		subtitle   = "Everything Winnipeg and AWS. From talks to workshops to chat rooms. You've come to the right place for everything AWS in Winnipeg."
+		buttonText = "Learn how to connect to the community"
 
 
-	# About section
-	[params.about]
-		headline    = "Building for Social Impact"
-		description = "When civilizations are built with the environment and society as first-class citizens and design goals, the end result is unarguably better. By applying our technology towards projects where social good is a key part of the intended outcome, we hope to better the world we share in both small and large ways."
-		# buttonText  = "Get started!"
 
 
 	# Service section
@@ -66,6 +61,12 @@ theme = "hugo-creative-theme"
             icon = "fa-heart"
             title = "Looking for Help"
             description = "There are openings for individuals skilled in databases, mathematical programming, and modern programming techniques to work with our experienced leadership and technical experts."
+
+	# About section
+	[params.about]
+		headline    = "History"
+		description = "Founded in December 2018 in the wake of [The Long Con 2018](https://thelongcon.ca/2018/speakers/) in the DC204 slack chat, Winnipeg AWS has been hosting regular talks on a variety of AWS services and skill levels from beginner to seasoned expert."
+		# buttonText  = "Get started!"
 
     #     [[params.services.list]]
 		# 	icon = "fa-paper-plane"
