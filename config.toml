@@ -1,6 +1,6 @@
-baseurl = "https://d2fvil4bzkdtfh.cloudfront.net"
+baseurl = "https://winnipegaws.ca"
 languageCode = "en-us"
-title = "Ataniq"
+title = "Winnipeg AWS User Group"
 theme = "hugo-creative-theme"
 # googleAnalytics = ""
 
@@ -20,8 +20,8 @@ theme = "hugo-creative-theme"
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Ataniq"
-	description = "A company focused on a data-driven work, where society and the environment are first-class citizens."
+	name = "Winnipeg AWS User Group"
+	description = "Winnipeg's user group for everything AWS! Winnipeg AWS UG hosts talks on a month-to-month basis."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.png"
@@ -29,7 +29,7 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "![Logo](img/favicon.png)&nbsp;Ataniq"
+		brand = "![Logo](img/favicon.png)&nbsp;Winnipeg AWS UG"
 
 		[params.navigation.links]
 			about     = "About"
