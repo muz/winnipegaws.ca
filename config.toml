@@ -107,6 +107,9 @@ The monthly meetups we host are evening events in central Winnipeg — subscribe
 		headline = "Contact us"
 		description = "You can reach us through the email below or feel free to join the [DC204 Slack Chat](https://thelongcon.ca/contact/) channel to get in contact with us. Our [mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) is also a great resource to email in and ask questions."
 		email = "winnipegaws@gmail.com"
+    facebook = "WinnipegAWS"
+    twitter = "WinnipegAWS"
+    mailing_list = "https://groups.google.com/forum/#!forum/winnipeg-aws-user-group"
 
 	# Google Maps section
 	# [params.location]
