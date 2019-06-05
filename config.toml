@@ -67,7 +67,7 @@ The monthly meetups we host are evening events in central Winnipeg — subscribe
 	# About section
 	[params.about]
 		headline    = "About"
-		description = "Founded in December 2018 in the wake of [The Long Con 2018](https://thelongcon.ca/2018/speakers/) in the DC204 slack chat, Winnipeg AWS has been hosting regular talks on a variety of AWS services and skill levels from beginner to seasoned expert."
+		description = "Founded in December 2018 in the wake of [The Long Con 2018](https://thelongcon.ca/2018/speakers/) in the [DC204 slack chat](https://thelongcon.ca/contact/), Winnipeg AWS has been hosting regular talks on a variety of AWS services and skill levels from beginner to seasoned expert."
 		# buttonText  = "Get started!"
 
     #     [[params.services.list]]
