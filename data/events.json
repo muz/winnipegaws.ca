@@ -1,0 +1,61 @@
+{
+  "events": [
+    {
+      "date": "2018-12-17",
+      "sessions": [
+        {
+          "speaker": "Mike Himbeault",
+          "title": "CloudFront: Recipes for static websites and file hosting",
+          "description": "Mike Himbeault will be presenting on the wonders of using AWS S3 and AWS CloudFront to host your static websites and how to apply those same techniques to your web applications. Combining S3 which offers 99.999999999% durability (yes, seriously) and CloudFront to distribute your content globally in 144 locations makes this a very powerful pairing. Expect to learn a lot about S3, CloudFront, and web apps!",
+          "slides": null,
+          "video": null
+        },
+        {
+          "speaker": "Mark Campbell",
+          "title": "Easy and Flexible Web App Deployment with Elastic Beanstalk",
+          "description": "Mark Campbell will be presenting on using AWS Elastic Beanstalk to deploy and easily(!) configure your web apps. Elastic Beanstalk is a Heroku-style platform that is set up for your popular web platforms (Ruby, Python, PHP, Node, Java, Go, etc.) designed with conventions in mind over configuration. It gives you a flexible, ready-made platform for you to bring your web app to life while at the same time providing you with configuration-as-code by default.",
+          "slides": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "date": "2019-03-13",
+      "sessions": [
+        {
+          "speaker": "Muz Ali",
+          "title": "EC2 is Easy Too!",
+          "description": "Muz will be presenting an intro to EC2 in a nutshell, along with some tips and tricks using EC2 for existing users.",
+          "slides": null,
+          "video": null
+        },
+        {
+          "speaker": "Wyatt Zacharias",
+          "title": "Private Cloud Networking with AWS VPC",
+          "description": "VPC (Virtual Private Cloud) is an offering from AWS that allows users to create their own private networking within the AWS cloud. Each VPC contains subnets, gateways, and other network components albeit with some cloud specific caveats. Wyatt Zacharias will demonstrate how to get started with your own VPC and some of the pitfalls you might run into when designing your first VPC.",
+          "slides": null,
+          "video": null
+        }
+      ]
+    },
+    {
+      "date": "2019-06-12",
+      "sessions": [
+        {
+          "speaker": "Ron Pluchinski",
+          "title": "DevOps Multi Cloud Journey",
+          "description": "Ron Pluchinski is a software defined architect and he will be presenting on his journey using multiple cloud platforms (AWS, GCP, Azure, etc.) to fix problems.",
+          "slides": null,
+          "video": null
+        },
+        {
+          "speaker": "Mike Himbeault",
+          "title": "Canadian Cyber Defence Challenge: Building a War Zone; Redux",
+          "description": "Mike Himbeault is an enterprise architect and he will be taking you through building the Canadian Cyber Defence Challenge on AWS.",
+          "slides": null,
+          "video": null
+        }
+      ]
+    }
+  ]
+}

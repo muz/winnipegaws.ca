@@ -1,0 +1,9 @@
+<div class="event">
+  <div class="event-date">{{ .date }}</div>
+  {{ range .sessions }}
+    <div class="event-session">
+      <b>{{ .title | safeHTML }}</b> by {{ .speaker | safeHTML }}
+      <p>{{ .description }}</p>
+    </div>
+  {{ end }}
+</div>

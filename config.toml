@@ -5,23 +5,16 @@ theme = "hugo-creative-theme"
 # googleAnalytics = ""
 
 [params]
-
-	# You can use Markdown syntax for urls [text](//url.to/source) for
-	# most longer texts.
-
 	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
 	# for more icons. The icons are represented by their corresponding
 	# CSS class.
 
 	# All projects of the portfolio are defined in their own files.
-	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
-	# folder into the 'data' directory at the root of this Hugo site.
-	# For more information take a look at the README.
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Winnipeg AWS User Group"
-	description = "Winnipeg's user group for everything AWS! Winnipeg AWS UG hosts talks on a month-to-month basis."
+	description = "Winnipeg's user group for everything AWS! Winnipeg AWS user group hosts meetups on a regular basis."
 
 	# The path must be relative to the static folder
 	favicon = "favicon.png"
@@ -33,20 +26,15 @@ theme = "hugo-creative-theme"
 
 		[params.navigation.links]
 			about     = "About"
-			# services  = "Services"
-			portfolio = "Portfolio"
 			contact   = "Contact"
 
 
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "The AWS community of Winnipeg"
-		subtitle   = "Everything Winnipeg and AWS. From talks to workshops to chat rooms. You've come to the right place for everything AWS in Winnipeg."
-		buttonText = "Learn how to connect to the community"
-
-
-
+		slogan     = "Winnipeg AWS User Group"
+		subtitle   = "Winnipeg's local AWS user group. From talks to workshops to chat rooms, you've come to the right place for everything AWS in Winnipeg."
+		buttonText = "Connect with the community"
 
 	# Service section
 	[params.services]
@@ -56,7 +44,7 @@ theme = "hugo-creative-theme"
             icon = "fa-users"
             title = "Meetups"
             description = """
-The monthly meetups we host are evening events in central Winnipeg — subscribe to our [mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) to be notified of the next event.
+Regular meetups are held in central Winnipeg — subscribe to our [mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) to be notified of the next event.
             """
 
       [[params.services.list]]
@@ -64,10 +52,16 @@ The monthly meetups we host are evening events in central Winnipeg — subscribe
           title = "Looking for Help?"
           description = "Want to chat? Join the [DC204 Slack Chat](https://thelongcon.ca/contact/) and visit the #orange-koolaid channel to connect with other Winnipeg AWS professionals. Our monthly meetups are another great way to ask questions and get answers: subscribe to [our mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) to be notified of future events."
 
+
+#      [[params.services.list]]
+#          icon = "fa-clock"
+#          title = "Past Events"
+#          description = "To check out slides, talks, topics, and sessions we've previously held, visit our [events archive](./events)"
+#
 	# About section
 	[params.about]
 		headline    = "About"
-		description = "Founded in December 2018 in the wake of [The Long Con 2018](https://thelongcon.ca/2018/speakers/) in the [DC204 slack chat](https://thelongcon.ca/contact/), Winnipeg AWS has been hosting regular talks on a variety of AWS services and skill levels from beginner to seasoned expert."
+		description = "Founded in December 2018 in the wake of [The Long Con 2018](https://thelongcon.ca/2018/speakers/) in the [DC204 slack chat](https://thelongcon.ca/contact/), Winnipeg AWS has been hosting regular talks on a variety of AWS services for all skill levels, from prospective users all the way through to the seasoned expert."
 		# buttonText  = "Get started!"
 
     #     [[params.services.list]]
@@ -107,9 +101,9 @@ The monthly meetups we host are evening events in central Winnipeg — subscribe
 		headline = "Contact us"
 		description = "You can reach us through the email below or feel free to join the [DC204 Slack Chat](https://thelongcon.ca/contact/) channel to get in contact with us. Our [mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) is also a great resource to email in and ask questions."
 		email = "winnipegaws@gmail.com"
-    facebook = "WinnipegAWS"
-    twitter = "WinnipegAWS"
-    mailing_list = "https://groups.google.com/forum/#!forum/winnipeg-aws-user-group"
+		facebook = "WinnipegAWS"
+		twitter = "WinnipegAWS"
+		mailing_list = "https://groups.google.com/forum/#!forum/winnipeg-aws-user-group"
 
 	# Google Maps section
 	# [params.location]
