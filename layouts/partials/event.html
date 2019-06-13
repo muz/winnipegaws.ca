@@ -1,9 +1,20 @@
 <div class="event">
   <div class="event-date">{{ .date }}</div>
+  {{ if .signup }}
+  <p><a href="{{ .signup }}">Sign-up here</a></p>
+  {{ end }}
   {{ range .sessions }}
     <div class="event-session">
       <b>{{ .title | safeHTML }}</b> by {{ .speaker | safeHTML }}
       <p>{{ .description }}</p>
+      <div class="event-media">
+        {{ if .slides }}
+          <a href="{{ .slides }}">Slides</a>
+        {{ end }}
+        {{ if .video }}
+          <a href="{{ .video }}">Slides</a>
+        {{ end }}
+      </div>
     </div>
   {{ end }}
 </div>

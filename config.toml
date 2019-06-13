@@ -44,7 +44,7 @@ theme = "hugo-creative-theme"
             icon = "fa-users"
             title = "Meetups"
             description = """
-Regular meetups are held in central Winnipeg — subscribe to our [mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) to be notified of the next event.
+Regular meetups are held in central Winnipeg. To view past and upcoming events, visit our [events page](./events). You can also subscribe to our [mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) to be notified of future events.
             """
 
       [[params.services.list]]
@@ -53,32 +53,11 @@ Regular meetups are held in central Winnipeg — subscribe to our [mailing list]
           description = "Want to chat? Join the [DC204 Slack Chat](https://thelongcon.ca/contact/) and visit the #orange-koolaid channel to connect with other Winnipeg AWS professionals. Our monthly meetups are another great way to ask questions and get answers: subscribe to [our mailing list](https://groups.google.com/forum/#!forum/winnipeg-aws-user-group) to be notified of future events."
 
 
-#      [[params.services.list]]
-#          icon = "fa-clock"
-#          title = "Past Events"
-#          description = "To check out slides, talks, topics, and sessions we've previously held, visit our [events archive](./events)"
-#
 	# About section
 	[params.about]
 		headline    = "About"
 		description = "Founded in December 2018 in the wake of [The Long Con 2018](https://thelongcon.ca/2018/speakers/) in the [DC204 slack chat](https://thelongcon.ca/contact/), Winnipeg AWS has been hosting regular talks on a variety of AWS services for all skill levels, from prospective users all the way through to the seasoned expert."
 		# buttonText  = "Get started!"
-
-    #     [[params.services.list]]
-		# 	icon = "fa-paper-plane"
-		# 	title = "Ready to Ship"
-		# 	description = "You can use this theme as is, or you can make changes!"
-
-		# [[params.services.list]]
-    #         icon = "fa-newspaper-o"
-    #         title = "Up to Date"
-    #         description = "We update dependencies to keep things fresh."
-
-    #     [[params.services.list]]
-    #         icon = "fa-heart"
-    #         title = "Made with Love"
-    #         description = "You have to make your websites with love these days!"
-
 
   #   # Portfolio modals
 	# [params.portfolio.modal]

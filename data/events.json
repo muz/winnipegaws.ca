@@ -1,19 +1,20 @@
 {
   "events": [
     {
-      "date": "2018-12-17",
+      "date": "2019-06-12",
+      "signup": "https://eventbrite.ca/e/winnipeg-aws-user-group-june-meetup-tickets-62856454347",
       "sessions": [
         {
-          "speaker": "Mike Himbeault",
-          "title": "CloudFront: Recipes for static websites and file hosting",
-          "description": "Mike Himbeault will be presenting on the wonders of using AWS S3 and AWS CloudFront to host your static websites and how to apply those same techniques to your web applications. Combining S3 which offers 99.999999999% durability (yes, seriously) and CloudFront to distribute your content globally in 144 locations makes this a very powerful pairing. Expect to learn a lot about S3, CloudFront, and web apps!",
+          "speaker": "Ron Pluchinski",
+          "title": "DevOps Multi Cloud Journey",
+          "description": "Ron Pluchinski is a software defined architect and he will be presenting on his journey using multiple cloud platforms (AWS, GCP, Azure, etc.) to fix problems.",
           "slides": null,
           "video": null
         },
         {
-          "speaker": "Mark Campbell",
-          "title": "Easy and Flexible Web App Deployment with Elastic Beanstalk",
-          "description": "Mark Campbell will be presenting on using AWS Elastic Beanstalk to deploy and easily(!) configure your web apps. Elastic Beanstalk is a Heroku-style platform that is set up for your popular web platforms (Ruby, Python, PHP, Node, Java, Go, etc.) designed with conventions in mind over configuration. It gives you a flexible, ready-made platform for you to bring your web app to life while at the same time providing you with configuration-as-code by default.",
+          "speaker": "Mike Himbeault",
+          "title": "Canadian Cyber Defence Challenge: Building a War Zone; Redux",
+          "description": "Mike Himbeault is an enterprise architect and he will be taking you through building the Canadian Cyber Defence Challenge on AWS.",
           "slides": null,
           "video": null
         }
@@ -39,19 +40,19 @@
       ]
     },
     {
-      "date": "2019-06-12",
+      "date": "2018-12-17",
       "sessions": [
         {
-          "speaker": "Ron Pluchinski",
-          "title": "DevOps Multi Cloud Journey",
-          "description": "Ron Pluchinski is a software defined architect and he will be presenting on his journey using multiple cloud platforms (AWS, GCP, Azure, etc.) to fix problems.",
+          "speaker": "Mike Himbeault",
+          "title": "CloudFront: Recipes for static websites and file hosting",
+          "description": "Mike Himbeault will be presenting on the wonders of using AWS S3 and AWS CloudFront to host your static websites and how to apply those same techniques to your web applications. Combining S3 which offers 99.999999999% durability (yes, seriously) and CloudFront to distribute your content globally in 144 locations makes this a very powerful pairing. Expect to learn a lot about S3, CloudFront, and web apps!",
           "slides": null,
           "video": null
         },
         {
-          "speaker": "Mike Himbeault",
-          "title": "Canadian Cyber Defence Challenge: Building a War Zone; Redux",
-          "description": "Mike Himbeault is an enterprise architect and he will be taking you through building the Canadian Cyber Defence Challenge on AWS.",
+          "speaker": "Mark Campbell",
+          "title": "Easy and Flexible Web App Deployment with Elastic Beanstalk",
+          "description": "Mark Campbell will be presenting on using AWS Elastic Beanstalk to deploy and easily(!) configure your web apps. Elastic Beanstalk is a Heroku-style platform that is set up for your popular web platforms (Ruby, Python, PHP, Node, Java, Go, etc.) designed with conventions in mind over configuration. It gives you a flexible, ready-made platform for you to bring your web app to life while at the same time providing you with configuration-as-code by default.",
           "slides": null,
           "video": null
         }
