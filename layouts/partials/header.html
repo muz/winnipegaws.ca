@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{ partial "head.html" . }}
+
+<body id="page-top">
+
+{{ partial "nav.html" . }}
+
+<header>
+  <div class="header-content">
+    <div class="header-content-inner">
+      <h1>{{ .Title | markdownify }}</h1>
+      <hr>
+      <p>{{ .Content | markdownify }}</p>
+      {{ if and (isset .Params "ctatext") (isset .Params "ctalink") }}
+        <a href="{{ .Params.ctalink }}" class="btn btn-primary btn-xl page-scroll">{{ .Params.ctatext }}</a>
+      {{ end }}
+    </div>
+  </div>
+</header>
+

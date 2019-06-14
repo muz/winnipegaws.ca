@@ -1,9 +1,9 @@
-<h3>Events</h3>
+{{ partial "header.html" . }}
 
-<p>Subscribe to our <a href="https://groups.google.com/forum/#!forum/winnipeg-aws-user-group">mailing list</a> to be notified of future events.</p>
-
-<section class="past-events">
-{{ range $.Site.Data.events.events }}
-  {{ partial "event.html" . }}
-{{ end }}
+<section class="events">
+  {{ range $.Site.Data.events.events }}
+    {{ partial "event.html" . }}
+  {{ end }}
 </section>
+
+{{ partial "footer.html" . }}

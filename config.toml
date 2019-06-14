@@ -22,11 +22,12 @@ theme = "hugo-creative-theme"
 
 	# Navigation
 	[params.navigation]
-		brand = "![Logo](img/favicon.png)&nbsp;Winnipeg AWS User Group"
+		brand = "![Logo](/img/favicon.png)&nbsp;Winnipeg AWS User Group"
 
 		[params.navigation.links]
 			about     = "About"
-			contact   = "Contact"
+			contact   = "Contact Us"
+			events    = "Events"
 
 
 	# Hero section
