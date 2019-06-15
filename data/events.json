@@ -1,8 +1,20 @@
 {
   "events": [
     {
+      "date": "2019-07-10",
+      "signup": null,
+      "sessions": [
+        {
+          "speaker": "TBA",
+          "title": "TBA",
+          "description": null,
+          "slides": null,
+          "video": null
+        }
+      ]
+    },
+    {
       "date": "2019-06-12",
-      "signup": "https://eventbrite.ca/e/winnipeg-aws-user-group-june-meetup-tickets-62856454347",
       "sessions": [
         {
           "speaker": "Ron Pluchinski",
